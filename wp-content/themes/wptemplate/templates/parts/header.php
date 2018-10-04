@@ -14,7 +14,8 @@
 				<?php echo $gov_id; ?>
 			<?php endif; ?>
 			<?php if ($top_logo) : ?>
-				<?php echo $top_logo; ?>
+				<?php echo $top_logo
+				; ?>
 			<?php endif; ?>
 			</div>
 		</div>
