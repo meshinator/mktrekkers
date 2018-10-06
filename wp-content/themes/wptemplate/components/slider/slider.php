@@ -10,14 +10,19 @@ if( have_rows('slider_repeater') ): ?>
     $count = 0;
     while ( have_rows('slider_repeater') ) : the_row(); ?>
 
-    
-
     <div class="carousel-item <?php if ( $count == 0 ) { echo "active"; } ?>">
-    <img src="<?php echo  the_sub_field('slider_image'); ?>" />
+      <?php 
+      $image = get_sub_field('slider_image');
+      $size = 'image-1400'; // (thumbnail, medium, large, full or custom size)
+      
+        if( $image ) {  
+          echo wp_get_attachment_image( $image['ID'], $size );
+        }
+      ?>
     </div>
     <?php 
         $count++;
-        endwhile;?>
+    endwhile;?>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

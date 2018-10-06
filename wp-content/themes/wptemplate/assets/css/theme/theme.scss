@@ -4,10 +4,14 @@
 	color: $text-color;
 }
 
+//font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
 body {
+	font-family: 'Open Sans', sans-serif;
+
 	&.is-loaded {
 		opacity: 1;
-
 		transition: opacity .2s linear;
 	}
 }
@@ -18,5 +22,25 @@ a {
 	&:hover {
 		color: fadeout( $link-color, 10% );
 		text-decoration: underline;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1300px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.flex-row {
+	display: flex;
+
+	> div {
+		margin: 0 10px;
 	}
 }

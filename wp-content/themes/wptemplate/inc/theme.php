@@ -54,3 +54,13 @@ add_action( 'admin_bar_menu', function( $admin_bar ) {
 
 	$admin_bar->add_menu( $args );
 },  100 );
+
+add_action('init', 'tf_register_image_sizes');
+/**
+ * Comment.
+ */
+function tf_register_image_sizes()
+{
+	add_image_size('image-1400', 1400, 600, true);
+	add_image_size('image-400', 400, 300, true);
+}
