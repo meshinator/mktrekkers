@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 <?php the_post(); ?>
 
+<?php
+get_template_part('components/slider/slider');
+?>
 	<div class="entry-content">
 		<?php the_content(); ?>
 	</div>

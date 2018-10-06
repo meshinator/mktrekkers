@@ -8,7 +8,7 @@ class Theme extends Component {
 		this.element
 			.on( 'click', e => {
 				console.log( e.currentTarget, this );
-				alert( `${e.currentTarget} clicked!` );
+				//alert( `${e.currentTarget} clicked!` );
 			});
 	}
 }
