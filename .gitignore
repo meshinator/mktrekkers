@@ -10,3 +10,4 @@ node_modules
 /vendor
 *.map
 /readme.html
+wp-config.php
