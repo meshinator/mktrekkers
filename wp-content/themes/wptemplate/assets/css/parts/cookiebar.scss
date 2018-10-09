@@ -4,11 +4,16 @@
 	color: $white;
 	text-align: center;
 
+	p {
+		margin-bottom: 0;
+	}
+
 	&.fixed {
 		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
+		z-index: 9;
 	}
 
 	&.bottom {
@@ -18,5 +23,8 @@
 
 	.cb-enable {
 		@extend .btn;
+		background-color: #fff;
+		text-decoration: none;
+		margin-left: 15px;
 	}
 }
