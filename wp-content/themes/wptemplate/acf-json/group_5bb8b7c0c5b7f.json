@@ -240,9 +240,64 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5bd8863f199cb": {
+                    "key": "layout_5bd8863f199cb",
+                    "name": "slider",
+                    "label": "Slider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5bd88649199cc",
+                            "label": "Slider Repeater",
+                            "name": "slider_repeater",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5bd88676199cd",
+                                    "label": "Slider Image",
+                                    "name": "slider_image",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "thumbnail",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
-            "button_label": "Add Row",
+            "button_label": "Add Component",
             "min": "",
             "max": ""
         }
@@ -267,5 +322,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1538849692
+    "modified": 1540917308
 }
