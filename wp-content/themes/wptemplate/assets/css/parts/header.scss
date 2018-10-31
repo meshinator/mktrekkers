@@ -12,8 +12,6 @@
 	text-align: right;
 
 	a {
-		color: $primary;
-		background-color: $white;
 		width: 22px;
 		height: 22px;
 		text-align: center;
@@ -22,9 +20,10 @@
 		border-radius: 50%;
 		align-items: center;
 		line-height: 22px;
+		color: $white;
 
 		i {
-			font-size: 14px;
+			font-size: 20px;
 		}
 	}
 }
@@ -32,7 +31,7 @@
 //header
 //_____________________
 .header {
-	padding: 20px 0 0;
+	padding: 20px 0;
 	border-bottom: 1px solid rgba( $black, 0.5 );
 	margin-bottom: 20px;
 }
@@ -44,7 +43,6 @@
 
 // nav
 .main-nav {
-	background-color: $primary;
 	margin-top: 20px;
 
 	.nav {
@@ -58,7 +56,7 @@
 			&.current-menu-item,
 			&:hover {
 				a {
-					background-color: $secondary;
+					color: $black;
 				}
 			}
 
@@ -66,7 +64,7 @@
 				text-decoration: none;
 				text-transform: uppercase;
 				letter-spacing: 1px;
-				color: $white;
+				color: $black;
 				display: block;
 				padding: 10px 15px;
 			}

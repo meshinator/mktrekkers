@@ -26,6 +26,11 @@ add_action( 'after_setup_theme', function() {
 	//add_image_size( 'theme_img_name', width, height, crop(true|false) );
 });
 
+add_action( 'wp_enqueue_scripts', 'enqueue_awesome' );
+function enqueue_awesome() {
+	wp_enqueue_style( 'prefix-font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css', array(), '4.0.3' );
+}
+
 add_action( 'wp_enqueue_scripts', function() {
 	if ( ! is_admin() ) {
 		wp_deregister_script( 'jquery' );

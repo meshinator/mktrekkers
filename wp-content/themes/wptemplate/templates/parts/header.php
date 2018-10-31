@@ -5,13 +5,19 @@
 			<div class="col-12 col-md-8">
 			<?php 
                 $contact_num = get_field('contact_number', 'option');
+                $email_id = get_field('email', 'option');
                 $gov_id = get_field('government_id', 'option');
-				$header_text = get_field('header_text', 'option');
 				$company_name = get_field('company_name', 'option');
             ?>
 			<?php if ($contact_num) : ?>
+				<i class="icon-phone"></i>
 				<?php echo $contact_num; ?>
 			<?php endif; ?>
+			<?php if ($email_id) : ?>
+				<i class="icon-gmail"></i>
+				<?php echo $email_id; ?>
+			<?php endif; ?>
+
 			<?php if ($gov_id) : ?>
 				<?php echo $gov_id; ?>
 			<?php endif; ?>
@@ -22,6 +28,30 @@
 				<?php echo $header_text; ?>
 			<?php endif; ?>
 		</div>
+						<div class="social-wrap">
+			<?php 
+                $facebook = get_field('facebook', 'option');
+                $twitter = get_field('twitter', 'option');
+                $instagram = get_field('instagram', 'option');
+            ?>
+			<?php if ($facebook) : ?>
+				<a href="<?php echo esc_url($facebook); ?>" target="_blank">
+					<i class="icon-facebook"></i>
+				</a>
+			<?php endif; ?>
+			<?php if ($twitter) : ?>
+				<a href="<?php echo esc_url($twitter); ?>" target="_blank">
+					<i class="icon-twitter"></i>
+
+				</a>
+			<?php endif; ?>
+			<?php if ($instagram) : ?>
+				<a href="<?php echo esc_url($instagram); ?>" target="_blank">
+					<i class="icon-instagram"></i>
+
+				</a>
+			<?php endif; ?>
+			</div>
 				</div>
 			
 			</div>
@@ -38,8 +68,20 @@
 			
 			<div class="col-12 col-md-9">
 				<?php if ($company_name) : ?>
-					<h1><?php echo $company_name; ?></h1>
+					<!-- <h1><?php echo $company_name; ?></h1> -->
 				<?php endif; ?>
+				<nav class="main-nav desktop">
+			<div class="container">
+				<?php
+                    wp_nav_menu([
+                        'theme_location' => 'primary',
+                        'depth' => 5,
+                        'container' => 'ul',
+                        'menu_class' => 'nav',
+                    ]);
+                ?>
+            </div>
+		</nav>
 				</div>
 			</div>
 			<a class="mobile-header-controller mobile" href="javascript:;">
@@ -48,18 +90,7 @@
 				<span></span>
 			</a>
 		</div>
-		<nav class="main-nav desktop">
-			<div class="container">
-				<?php
-                    wp_nav_menu([
-                        'theme_location' => 'primary',
-                        'depth' => 3,
-                        'container' => 'ul',
-                        'menu_class' => 'nav',
-                    ]);
-                ?>
-            </div>
-		</nav>
+		
 	</div>
 </header>
 
@@ -85,4 +116,5 @@
 		</div>
 	</div>
 </div>
+
 <!--end mobile-header-->

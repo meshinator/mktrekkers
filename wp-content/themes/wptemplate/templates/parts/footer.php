@@ -3,6 +3,7 @@
 // check if the repeater field has rows of data
 $footer_repeater = get_field('footer_repeater', 'option');
 $footer_content = get_field('footer_text', 'option');
+$contact_details_repeater= get_field('contact_details_repeater','option')
 //pr($footer_repeater);
 
 ?>
@@ -59,6 +60,48 @@ if( $footer_repeater ): ?>
 	</div>
 
 <?php endif;?>
+
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Contact Details</h5>
+          <p>
+M. K. Himalayan Adventure Pvt. Ltd.
+Phone: +977 - 9818368534, 9841449917
+Email: info@mktrekkers.com</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+       
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Text -->
+
+    <!-- Copyright -->
+   
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
 <div class="copy-right center-text">
 	<p>Copyright ©. M.K.Himalayan Adventure Pvt. Ltd. All rights reserved.</p>
 	</div>

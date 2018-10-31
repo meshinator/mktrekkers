@@ -92,6 +92,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_5bd5e01a6cbdd",
+            "label": "Email",
+            "name": "email",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5bb5e058db3cd",
             "label": "Government Id",
             "name": "government_id",
@@ -223,6 +242,25 @@
                     "mime_types": ""
                 }
             ]
+        },
+        {
+            "key": "field_5bd868749cc9c",
+            "label": "Contact_Details",
+            "name": "contact_details_repeater",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_580742bb736de",
@@ -364,5 +402,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1538843368
+    "modified": 1540909519
 }

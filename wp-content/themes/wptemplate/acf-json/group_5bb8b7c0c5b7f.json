@@ -151,32 +151,16 @@
                     "min": "",
                     "max": ""
                 },
-                "layout_5bb8d1bf49003": {
-                    "key": "layout_5bb8d1bf49003",
-                    "name": "gallery",
-                    "label": "Gallery",
+                "layout_5bd745ed84552": {
+                    "key": "layout_5bd745ed84552",
+                    "name": "Slider_popular",
+                    "label": "Slider_popular",
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_5bb8d1bf49004",
-                            "label": "Content",
-                            "name": "",
-                            "type": "tab",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "placement": "top",
-                            "endpoint": 0
-                        },
-                        {
-                            "key": "field_5bb8fb8468dc4",
-                            "label": "Gallery Text",
-                            "name": "gallery_text",
+                            "key": "field_5bd745ed84554",
+                            "label": "Slider Text",
+                            "name": "slider_text",
                             "type": "wysiwyg",
                             "instructions": "",
                             "required": 0,
@@ -193,9 +177,9 @@
                             "delay": 1
                         },
                         {
-                            "key": "field_5bb8d1bf49005",
-                            "label": "Gallery Repeater",
-                            "name": "gallery_repeater",
+                            "key": "field_5bd7464184557",
+                            "label": "slider",
+                            "name": "slider",
                             "type": "repeater",
                             "instructions": "",
                             "required": 0,
@@ -210,32 +194,7 @@
                             "max": 0,
                             "layout": "table",
                             "button_label": "",
-                            "sub_fields": [
-                                {
-                                    "key": "field_5bb8d1bf49006",
-                                    "label": "Gallery Image",
-                                    "name": "gallery_image",
-                                    "type": "image",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "return_format": "array",
-                                    "preview_size": "thumbnail",
-                                    "library": "all",
-                                    "min_width": "",
-                                    "min_height": "",
-                                    "min_size": "",
-                                    "max_width": "",
-                                    "max_height": "",
-                                    "max_size": "",
-                                    "mime_types": ""
-                                }
-                            ]
+                            "sub_fields": []
                         }
                     ],
                     "min": "",
@@ -267,5 +226,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1538849692
+    "modified": 1540835912
 }
