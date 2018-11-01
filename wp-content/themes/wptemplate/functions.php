@@ -53,8 +53,8 @@ add_action( 'wp_enqueue_scripts', function() {
 			]
 		);
 
-		wp_register_style( 'style', get_stylesheet_directory_uri() . '/assets/dist/style.min.css', [], '1.0' );
-		wp_register_style( 'style1', get_stylesheet_directory_uri() . '/assets/dist/custom.css', [], '1.0' );
+		wp_register_style( 'style', get_stylesheet_directory_uri() . '/assets/dist/style.min.css', [], '1.1' );
+		wp_register_style( 'style1', get_stylesheet_directory_uri() . '/assets/dist/custom.css', [], '1.1' );
 		wp_enqueue_style( 'style' );
 		wp_enqueue_style( 'style1' );
 	}

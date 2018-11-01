@@ -36,12 +36,12 @@
             ?>
 			<?php if ($facebook) : ?>
 				<a href="<?php echo esc_url($facebook); ?>" target="_blank">
-					<i class="icon-facebook"></i>
+					<i class="icon-facebook-squared"></i>
 				</a>
 			<?php endif; ?>
 			<?php if ($twitter) : ?>
 				<a href="<?php echo esc_url($twitter); ?>" target="_blank">
-					<i class="icon-twitter"></i>
+					<i class="icon-twitter-squared"></i>
 
 				</a>
 			<?php endif; ?>
