@@ -69,6 +69,7 @@
 			<div class="col-12 col-md-9">
 				<?php if ($company_name) : ?>
 					<!-- <h1><?php echo $company_name; ?></h1> -->
+					<!-- <h1><?php echo $company_name; ?></h1> -->
 				<?php endif; ?>
 				<nav class="main-nav desktop">
 			<div class="container">
@@ -94,6 +95,7 @@
 	</div>
 </header>
 
+
 <!--start mobile-header-->
 <div class="mobile-wrapper">
 	<div class="mobile-header">
@@ -116,5 +118,8 @@
 		</div>
 	</div>
 </div>
+
+
+
 
 <!--end mobile-header-->
