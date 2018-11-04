@@ -174,7 +174,7 @@
                             "min": 0,
                             "max": 0,
                             "layout": "table",
-                            "button_label": "",
+                            "button_label": "Add Image",
                             "sub_fields": [
                                 {
                                     "key": "field_5bd9d1a2c76d6",
@@ -396,7 +396,7 @@
                     "max": ""
                 }
             },
-            "button_label": "Add Row",
+            "button_label": "Add Component",
             "min": "",
             "max": ""
         }
@@ -421,5 +421,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1541349835
+    "modified": 1541350490
 }
