@@ -74,11 +74,11 @@ if( $footer_repeater ): ?>
         <div class="col-md-6 mt-md-0 mt-3">
 
           <!-- Content -->
-          <h5 class="text-uppercase font-weight-bold">Contact Details</h5>
+          <!-- <h5 class="text-uppercase font-weight-bold">Contact Details</h5>
           <p>
 M. K. Himalayan Adventure Pvt. Ltd.
 Phone: +977 - 9818368534, 9841449917
-Email: info@mktrekkers.com</p>
+Email: info@mktrekkers.com</p> -->
 
         </div>
         <!-- Grid column -->

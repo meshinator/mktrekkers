@@ -14,7 +14,7 @@
 				<?php echo $contact_num; ?>
 			<?php endif; ?>
 			<?php if ($email_id) : ?>
-				<i class="icon-gmail"></i>
+				<i class="icon-mail-alt"></i>
 				<?php echo $email_id; ?>
 			<?php endif; ?>
 
